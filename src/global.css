@@ -1,0 +1,43 @@
+:root{
+  --white: #fff;
+  --black: #000000;
+  
+  --green-900: #1d7f13;
+  --green-700: #39992d;
+  --green-500: #56b346;
+  --green-100: #8fe879;
+
+  --yellow-100: #fdff00;
+  --yellow-300: #ecf000;
+
+  --purple-500: #761f75;
+  --purple-700: #641764;
+  --purple-900: #531053;
+
+  --grey-100: #777777;
+
+}
+
+:focus{
+  outline: transparent;
+  /*
+  box-shadow: 0 0 0 2px var(--green-500);
+  */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #EBF0FF;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
