@@ -1,8 +1,10 @@
 import { Header } from "./components/Header/Header";
 import { MainContent } from "./components/MainContent/MainContent";
 import { Details } from "./components/Details/Details"
-import "./global.css";
+import { TrustedBy } from "./components/TrustedBy/TrustedBy"
+import { Contact } from "./components/Contact/Contact"
 import styles from "./App.module.css";
+import "./global.css";
 
 function App() {
   return (
@@ -11,6 +13,9 @@ function App() {
       <MainContent />
       <Details />
       <TrustedBy />
+      <Contact />
+      <Header />
+
     </div>
   );
 }

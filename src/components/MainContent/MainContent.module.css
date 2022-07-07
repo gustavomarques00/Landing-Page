@@ -1,8 +1,7 @@
-
-
 .mainWrapper {
   padding: 0 1rem;
   display: flex;
+  margin-top: 7rem;
   flex-direction: row;
 }
 
